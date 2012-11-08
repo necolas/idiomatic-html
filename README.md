@@ -14,6 +14,7 @@ contribute.
 2. [Format](#format)
 3. [Attribute order](#attribute-order)
 4. [Naming](#naming)
+4. [Semantics](#semantics)
 
 [License](#license)
 
@@ -106,6 +107,43 @@ Example with better names:
 .column-body {
     background: #000;
 }
+```
+
+
+<a name="semantics"></a>
+## Semantics
+
+Trying to find the appropriate element to use is often difficult, but doing 
+so can result in cleaner, more maintainable code. Another, often overlooked 
+advantage, is this increases accessibility, particularly with screen readers.
+
+* Always try to use the most appropriate elements for the required field.
+* Try to avoid unnecessary declarations of elements purely for _wrapper_ purposes.
+
+Example with unneccesary and innapropriate elements:
+
+```html
+<div class="tweet">
+    <div class="tweet-avatar">
+        <a href="path/to/somewhere">
+            <img src="path/to/image.png" alt="">
+        </a>
+    </div>
+    <div class="tweet-message">
+         <span class="tweet-inner-text">[tweet text]</span>
+    </div>
+</div>
+```
+
+A more semantic example:
+
+```html
+<div class="tweet">
+    <a href="path/to/somewhere">
+      <img src="path/to/image.png" alt="">
+    </a>
+    <p>[tweet text]</p>
+</div>
 ```
 
 <a name="license"></a>
