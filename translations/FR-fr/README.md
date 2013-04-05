@@ -1,8 +1,11 @@
 # Principes d'écriture pour un HTML affordant et idiomatique
 
-Le présent document liste un guide de rédaction raisonnable pour le développement HTML. Ces lignes directrices encouragent fortement l'utilisation de modèles existants, communs et sensés. Elles doivent pouvoir s'adapter à votre besoin pour créer votre propre guide.
+Le présent document liste un guide de rédaction raisonnable pour le développement HTML.
+Ces lignes directrices encouragent fortement l'utilisation de modèles existants, communs et sensés.
+Elles doivent pouvoir s'adapter à votre besoin pour créer votre propre guide.
 
-Ce document est en constante évolution et les nouvelles idées sont toujours les bienvenues. Merci de bien vouloir contribuer.
+Ce document est en constante évolution et les nouvelles idées sont toujours les bienvenues.
+Merci de bien vouloir contribuer.
 
 
 ## Table des matières
@@ -20,7 +23,8 @@ Ce document est en constante évolution et les nouvelles idées sont toujours le
 <a name="general-principles"></a>
 ## 1. Principes généraux
 
-* Tout code présent dans n'importe quelle base de code doit avoir l'air d'avoir été écrit par une seule personne, peu importe le nombre de gens qui y ont contribué,
+* Tout code présent dans n'importe quelle base de code doit avoir l'air d'avoir été écrit par une seule personne,
+  peu importe le nombre de gens qui y ont contribué,
 * Appliquez les conventions de nommage de manière stricte,
 * En cas de doute dans le choix d'un style, utilisez des modèles de conceptions existants et communément utilisés.
 
@@ -28,13 +32,16 @@ Ce document est en constante évolution et les nouvelles idées sont toujours le
 <a name="whitespace"></a>
 ## 2. Indentation
 
-Une seule manière d‘indenter devrait être utilisée sur l'ensemble du code source de votre projet. Soyez toujours constant dans votre façon d‘indenter. Sautez des lignes pour améliorer la lisibilité.
+Une seule manière d‘indenter devrait être utilisée sur l'ensemble du code source de votre projet.
+Soyez toujours constant dans votre façon d‘indenter. Sautez des lignes pour améliorer la lisibilité.
 
 * Ne mélangez jamais les espaces et les tabulations pour l'indentation,
 * Choisissez entre les espaces ou de vraies tabulations. Tenez-vous en à votre choix sans y déroger. (Préférence : les espaces),
 * Si vous utilisez les espaces, choisissez le nombre de caractères utilisé pour chaque niveau d'indentation. (Préference : 4 espaces).
 
-Astuce : Configurez votre éditeur afin qu'il affiche les "caractères invisibles". Cela vous permettra de supprimer les espaces en fin de ligne, les espaces dans les lignes vides et évitera de polluer vos commits.
+Astuce : Configurez votre éditeur afin qu'il affiche les "caractères invisibles".
+Cela vous permettra de supprimer les espaces en fin de ligne, les espaces dans les lignes vides et évitera de
+polluer vos commits.
 
 
 <a name="format"></a>
@@ -47,7 +54,7 @@ Astuce : Configurez votre éditeur afin qu'il affiche les "caractères invisible
 * Utilisez toujours les doubles guillemets pour les valeurs d'attributs,
 * Omettez l'attribut type pour les éléments `link` pour les feuilles de style, `style` and `script`,
 * Fermez toujours vos balises,
-* N'ajouter pas de slash pour les éléménts auto-fermants.
+* N'ajoutez pas de slash pour les éléments auto-fermants.
 
 (Gardez une longueur de ligne de taille raisonnable, par exemple 80 caractères).
 
@@ -65,7 +72,8 @@ Exemple :
 
 ### Exceptions et légers écarts
 
-Les éléments avec plusieurs attributs peuvent être présentés sur plusieurs lignes afin d'améliorer la lisibilité et de générer des diffs plus pratiques.
+Les éléments avec plusieurs attributs peuvent être présentés sur plusieurs lignes afin
+d'améliorer la lisibilité et de générer des diffs plus pratiques.
 
 Exemple :
 
@@ -82,7 +90,8 @@ Exemple :
 <a name="attribute-order"></a>
 ## 4. Ordre des attributs
 
-Les attributs HTML devraient être listés dans un ordre qui reflète le fait que les noms de classes sont la principale manière grâce à laquelle CSS et Javascript sélectionnent les éléments.
+Les attributs HTML devraient être listés dans un ordre qui reflète le fait que les noms de
+classes sont la principale manière grâce à laquelle CSS et Javascript sélectionnent les éléments.
 
 1. `class`
 2. `id`
@@ -99,10 +108,13 @@ Exemple :
 <a name="naming"></a>
 ## 5. Nommage
 
-Nommer est difficile mais c'est très important. C'est une partie cruciale pour développer une base de code maintenable et s'assurer que vous avez une interface suffisament évolutive pour votre HTML et vos CSS/JS.
+Nommer est difficile mais c'est très important. C'est une partie cruciale pour développer une base
+de code maintenable et s'assurer que vous avez une interface suffisament évolutive pour votre HTML et vos CSS/JS.
 
-* Utilisez des noms précis, réfléchis et appropriés pour les classes HTML. Les noms doivent être compréhensibles à la fois dans les fichiers HTML et dans les fichiers CSS.
-* Éviter de recourir _systematiquement_ à des noms de classes abrégés. Ne rendez pas les choses difficiles à comprendre.
+* Utilisez des noms précis, réfléchis et appropriés pour les classes HTML.
+  Les noms doivent être compréhensibles à la fois dans les fichiers HTML et dans les fichiers CSS.
+* Éviter de recourir _systematiquement_ à des noms de classes abrégés.
+  Ne rendez pas les choses difficiles à comprendre.
 
 Exemple avec de mauvais noms :
 
