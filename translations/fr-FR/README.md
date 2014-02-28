@@ -26,7 +26,7 @@ Merci de bien vouloir contribuer.
 <a name="principes-generaux"></a>
 ## 1. Principes généraux
 
-> Une des clefs d'une bonne gestion de projet est de réaliser qu'écrire du code pour soi-même est une MAUVAISE IDÉE™. Si des milliers de personnes sont amenées à utiliser votre code, alors écrivez votre code en visant un maximum de clarté, et non en fonction de croyances personnelles comme la lecture de spécifications qui rendrait plus intelligent." - Idan Gazit
+> Une des clefs d'une bonne gestion de projet est de réaliser qu'écrire du code pour soi-même est une MAUVAISE IDÉE™. Si des milliers de personnes sont amenées à utiliser votre code, alors écrivez votre code en visant un maximum de clarté et non en fonction de croyances personnelles comme la lecture de spécifications qui rendraient plus intelligent." - Idan Gazit
 
 * Tout code présent dans n'importe quelle base de code doit avoir l'air d'avoir été écrit par une seule personne, peu importe le nombre de gens qui y ont contribué.
 * Appliquez les conventions de style de manière stricte.
@@ -42,23 +42,22 @@ Une seule manière d‘indenter devrait être utilisée sur l'ensemble du code s
 * Choisissez entre des espaces ou de vraies tabulations. Tenez-vous en à votre choix sans y déroger. (Préference : espaces)
 * Si vous utilisez les espaces, choisissez le nombre de caractères utilisé pour chaque niveau d'indentation. (Préference : 4 espaces)
 
-Astuce : Configurez votre éditeur afin qu'il affiche les "caractères invisibles". Cela vous permettra de supprimer les espaces en fin de ligne, les espaces dans les lignes vides et évitera de polluer vos commits.
+Astuce : configurez votre éditeur afin qu'il affiche les "caractères invisibles". Cela vous permettra de supprimer les espaces en fin de ligne, les espaces dans les lignes vides et évitera de polluer vos commits.
 
 
 <a name="format"></a>
 ## 3. Format
 
 * Toujours utiliser des balises et des attributs en bas-de-casse (minuscules).
-* Écrir un élément distinct par ligne.
-* Utiliser un niveau d'intentation suplémentaire pour chaque élément imbriqué.
+* Écrire un élément distinct par ligne.
+* Utiliser un niveau d'intentation supplémentaire pour chaque élément imbriqué.
 * Utiliser les attributs sans valeur (ex. `checked` plutôt que `checked="checked"`).
-* Always use double quotes to quote attribute values.
-* Toujours utiliser les guillemets "" plutot que les appostrophes '' pour les valeurs des attributs.
+* Toujours utiliser les guillemets "" plutôt que les apostrophes '' pour les valeurs des attributs.
 * Omettre l'attribut `type` des éléments `link` stylesheet, `style` et `script`.
 * Toujours inclure la balise fermante.
 * Ne pas inclure le slash de fin dans les éléments auto-fermants.
 
-(Garder une longueur de ligne raisonable, ex. 80 caractères).
+(Garder une longueur de ligne raisonnable, ex. 80 caractères).
 
 Exemple:
 
@@ -111,10 +110,10 @@ Exemple:
 ## 5. Appellation
 
 Nommer est difficile, mais très important. C'est une partie essentielle du processus de 
-l'élaboration d'une base de code maintenable, et veiller à ce que vous ayez une 
-interface relavivement évolutive entre votre HTML et CSS / JS.
+l'élaboration d'une base de code maintenable et veiller à ce que vous ayez une 
+interface relativement évolutive entre votre HTML et CSS / JS.
 
-* Utilisez des noms clairs, bien pensés, et appropriées pour les classes HTML. Les noms 
+* Utilisez des noms clairs, bien pensés et appropriées pour les classes HTML. Les noms 
    devrait être instructif à la fois dans les fichiers HTML et CSS.
 * Évitez l'utilisation _systématique_ de nom de classe abrégées. Ne rendez pas les choses difficiles à comprendre.
 
