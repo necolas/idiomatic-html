@@ -1,5 +1,7 @@
 # Principles of writing consistent, idiomatic HTML
 
+![unmaintained](http://img.shields.io/badge/status-unmaintained-red.png)
+
 The following document outlines a reasonable style guide for HTML development.
 These guidelines strongly encourage the use of existing, common, sensible
 patterns. They should be adapted as needed to create your own style guide.
